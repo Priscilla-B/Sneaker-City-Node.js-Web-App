@@ -1,0 +1,28 @@
+{
+  "name": "sneaker-city-node.js-web-app",
+  "version": "1.0.0",
+  "description": "<!-- a curated experience that shows just the latest in sneaker trends -->",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Priscilla-B/Sneaker-City-Node.js-Web-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Priscilla-B/Sneaker-City-Node.js-Web-App/issues"
+  },
+  "homepage": "https://github.com/Priscilla-B/Sneaker-City-Node.js-Web-App#readme",
+  "dependencies": {
+    "date-fns": "^2.29.3",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
