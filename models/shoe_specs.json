@@ -1,0 +1,24 @@
+[
+    {   "id": 1,
+        "shoe_id":1,
+        "colors": ["Blue", "White"],
+        "size": 41
+
+    },
+
+    {
+        "id":2,
+        "shoe_id":1,
+        "colors": ["Blue", "White"],
+        "size": 40
+
+    },
+
+    {
+        "id":3,
+        "shoe_id":1,
+        "colors": ["Green", "White"],
+        "size": 42
+
+    }
+]

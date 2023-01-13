@@ -1,0 +1,22 @@
+[
+    {
+        "id":1,
+        "brand_name":"Nike",
+        "model": "Airforce1",
+        "price": 200,
+        "picture": "../../views/static/images/image_1.jpg",
+        "release_date": "2022-03-12T13:37:27+00:00"
+
+    },
+
+    {
+        "id":2,
+        "brand_name":"Nike",
+        "model": "Airmax",
+        "price": 400,
+        "picture": "../../views/static/images/image_2.jpg",
+        "release_date": "2022-03-12T13:37:27+00:00"
+
+    }
+
+]
