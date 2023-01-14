@@ -1,17 +1,25 @@
 const express = require('express');
 const http = require('http');
 const path = require('path');
+const nunjucks = require('nunjucks')
 const cors = require('cors');
-const corsOptions = require('./config/config').corsOptions
 
+const corsOptions = require('./config/config').corsOptions
 const logEvents= require('./middleware/log-events').logEvents;
 const logger= require('./middleware/log-events').logger;
 
 const errorHandler = require('./middleware/error-handler');
 
+const app = express();
+
+// configure template engine
+nunjucks.configure(path.join(__dirname, 'views', 'templates'), {
+    autoescape: true,
+    express: app
+});
+
 const PORT = process.env.PORT || 5000;
 
-const app = express();
 
 // custom middleware logger
 app.use( logger)
