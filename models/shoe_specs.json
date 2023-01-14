@@ -2,7 +2,8 @@
     {   "id": 1,
         "shoe_id":1,
         "colors": ["Blue", "White"],
-        "size": 41
+        "size": 41,
+        "available":"True"
 
     },
 
@@ -10,7 +11,8 @@
         "id":2,
         "shoe_id":1,
         "colors": ["Blue", "White"],
-        "size": 40
+        "size": 40,
+        "available":"True"
 
     },
 
@@ -18,7 +20,8 @@
         "id":3,
         "shoe_id":1,
         "colors": ["Green", "White"],
-        "size": 42
+        "size": 42,
+        "available":"True"
 
     }
 ]
